@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #555;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: #333;
+}
+
+input[type="number"] {
+  width: calc(100% - 60px);
+  padding: 8px;
+  border: 1px solid #48ff00;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+/* Styling for different conditions */
+
+/* Laringitis */
+#G01_laringitis,
+#G02_laringitis,
+#G03_laringitis,
+#G04_laringitis,
+#G05_laringitis,
+#G06_laringitis,
+#G07_laringitis,
+#G08_laringitis,
+#G09_laringitis,
+#G10_laringitis,
+#G11_laringitis,
+#G12_laringitis,
+#G13_laringitis,
+#G14_laringitis,
+#G15_laringitis,
+#G16_laringitis,
+#G17_laringitis,
+#G18_laringitis,
+#G19_laringitis {
+  background-color: #2196f3;
+}
+
+/* Faringitis */
+#G01_faringitis,
+#G02_faringitis,
+#G03_faringitis,
+#G04_faringitis,
+#G05_faringitis,
+#G06_faringitis,
+#G07_faringitis,
+#G08_faringitis,
+#G09_faringitis,
+#G10_faringitis,
+#G11_faringitis,
+#G12_faringitis,
+#G13_faringitis,
+#G14_faringitis,
+#G15_faringitis,
+#G16_faringitis,
+#G17_faringitis,
+#G18_faringitis,
+#G19_faringitis {
+  background-color: #4caf50;
+}
+
+/* Influenza */
+#G01_influenza,
+#G02_influenza,
+#G03_influenza,
+#G04_influenza,
+#G05_influenza,
+#G06_influenza,
+#G07_influenza,
+#G08_influenza,
+#G09_influenza,
+#G10_influenza,
+#G11_influenza,
+#G12_influenza,
+#G13_influenza,
+#G14_influenza,
+#G15_influenza,
+#G16_influenza,
+#G17_influenza,
+#G18_influenza,
+#G19_influenza {
+  background-color: #ff9800;
+}
